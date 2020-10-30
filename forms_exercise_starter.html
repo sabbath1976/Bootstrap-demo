@@ -16,14 +16,107 @@
 <body>
     <div class="container">
         <h1 class="text-center display-2">Part 1</h1>
-        
+        <h4>Billing Address</h4>
+
+        <form>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" placeholder="Full Name" class="form-control" id="fullName">
+            </div>
+
+            <div class="form-group">
+                <label for="userName">Username</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input type="text" placeholder="Full Name" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email <span class="text-muted">(optional)</span></label>
+                <input type="email" placeholder="you@email.com" class="form-control" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" placeholder="1234 Market St." class="form-control" id="address">
+            </div>
+
+            <div class="form-group">
+                <label for="address-2">Address 2 <span class="text-muted">(optional)</span></label>
+                <input type="text" placeholder="Apartment or Suite" class="form-control" id="address-2">
+            </div>
+
+            <div class="form-group">
+                <label for="special">Special Notes <span class="text-muted">(optional)</span></label>
+                <textarea class="form-control" rows="3" id="special"></textarea>
+                <small class="text-muted">Include any spacial requests you have for us! </small>
+            </div>
+
+            <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="check-1">
+                    <label for="check-1" class="custom-control-label">Shipping address is same as billing</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="check-2">
+                    <label for="check-2" class="custom-control-label">Save my info for next time</label>
+                </div>
+            </div>
+        </form>
+
+        <hr>
+
+        <h3>Shipping Options</h3>
+
+        <div class="form-group">
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="radio-1" name="shipping">
+                <label for="radio-1" class="custom-control-label">Same Day Shipping</label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="radio-2" name="shipping">
+                <label for="radio-2" class="custom-control-label">Next Day Shipping</label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="radio-3" name="shipping">
+                <label for="radio-3" class="custom-control-label">3-5 Business Days</label>
+            </div>
+
+            <input class="btn btn-primary btn-block btn-lg my-3" type="submit" value="Continue To Checkout">
+        </div>
+
         <!-- Write your first form here -->
     </div>
 
 
     <h1 class="text-center display-2">Part 2</h1>
-    <div class="container border rounded" style="max-width: 400px;">
-       Write your second form here (and delete this line!)
+    <div class="container border rounded p-5 mb-5" style="max-width: 400px;">
+       <!-- Write your second form here (and delete this line!) -->
+       <h3 class="text-center mb-4">Sign In</h3>
+
+       <form>
+        <div class="form-group">
+            <input type="email" placeholder="Email" class="form-control">
+       </div>
+
+       <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+       </div>
+
+           <div class="custom-control custom-checkbox form-group">
+               <input type="checkbox" class="custom-control-input" id="remember">
+               <label for="remember" class="custom-control-label">Remember me</label>
+           </div>
+
+            <input type="submit" value="Sign In" class="btn btn-info btn-block btn-lg">
+            <p class="text-center mt-2">Not a member? <a href="#" class="btn btn-link text-info pl-0">Register</a></p>
+       </form>
     </div>
 
 
