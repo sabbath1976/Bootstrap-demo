@@ -1,32 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous"
+        />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
+        <title>Navs Exercise Starter</title>
+    </head>
 
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+            <a href="#" class="navbar-brand"
+                ><i class="fas fa-paw mr-2 d-none d-sm-inline"></i>My Pets</a
+            >
+            <button
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#myPets"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myPets">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Cats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Rabbits</a>
+                    </li>
+                </ul>
 
-    <title>Navs Exercise Starter</title>
-</head>
+                <form class="form-inline ml-auto">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"
+                                ><i class="fas fa-search"></i
+                            ></span>
+                        </div>
+                        <input type="text" class="form-control" />
+                        <div class="input-group-append">
+                            <button class="btn btn-success">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
 
-<body>
-   
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">Hey There!</h1>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aliquid reprehenderit vitae eligendi nulla hic consequuntur
+                    nobis magnam! Delectus ad sed provident! Excepturi deleniti
+                    facilis eius. Assumenda veniam corrupti aliquam aperiam
+                    ipsam aspernatur enim sapiente quis minus? In quia magnam
+                    qui sapiente repellendus labore. Dolorem ut, nobis corrupti
+                    a magni numquam!
+                </p>
+                <button class="btn btn-lg btn-success">
+                    Learn More<i class="fas fa-arrow-right ml-3"></i>
+                </button>
+            </div>
+        </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
+        <div class="container border">
+            <nav class="nav nav-pills nav-fill py-3 flex-column flex-sm-row">
+                <a href="#" class="nav-item nav-link active">Dogs</a>
+                <a href="#" class="nav-item nav-link">Cats</a>
+                <a href="#" class="nav-item nav-link disabled">Rabbits</a>
+            </nav>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
+                hic debitis, deleniti temporibus voluptate obcaecati explicabo
+                fugit consequuntur ratione blanditiis. Perferendis tempore id
+                porro iusto sapiente excepturi adipisci. Velit, fugiat.
+            </p>
+        </div>
 
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
